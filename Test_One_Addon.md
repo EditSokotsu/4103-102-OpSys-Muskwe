@@ -1,3 +1,6 @@
+####Yani Muskwe OpSys-4103-102 Test-add-on
+
+
 #Multi*
 
 1.  Multitasking refers to an operating system's ability to run multiple processes concurrently, over a certain quantum, ("concurrently" because these processes aren't run in parallel). Processes are executed in an "interleaving" manner, meaning a single process does not need to finish before another is executed. Resources, such as the CPU and main memory, are shared by the OS amongst all processes, via a number of strategies. The concept of multitasking is similar to the Lehman's intuitive idea of what "multitasking" is: doing homework, while listing to music, chewing gum and texting is multitasking; multiple processes (homework, music, ect) are all being done concurrently (one would have to switch oneself between each process, just like processes are switched on and of the CPU). 
