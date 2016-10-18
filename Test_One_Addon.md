@@ -7,15 +7,15 @@
 
 2.  Multiprogramming - Multiprogramming is also the ability of an operating system to execute more than one program on a single processor machine. One/multiple programs are loaded into main memory, ready for execution. This is meant to improve the system by increasing the the use of the CPU, i.e. the aim of multiprocessing is to keep the CPU as busy as possible.
 
-  "suppose the currently running process is performing an I/O task (which, by definition, does not need the CPU to be accomplished). Then, the OS may interrupt that process and give the control to one of the other in-main-memory programs that are ready to execute (i.e. process context switching). In this way, no CPU time is wasted by the system waiting for the I/O task to be completed, and a running process keeps executing until either it voluntarily releases the CPU or when it blocks for an I/O operation."[1]
+  Suppose the currently running process is performing an I/O task (which, by definition, does not need the CPU to be accomplished). Then, the OS may interrupt that process and give the control to one of the other in-main-memory programs that are ready to execute (i.e. process context switching). In this way, no CPU time is wasted by the system waiting for the I/O task to be completed, and a running process keeps executing until either it voluntarily releases the CPU or when it blocks for an I/O operation.
   
 3.  Multi-processing - as the name would suggest, this refers to the concept of running multipe programs (or processes) at the same time (simulaneously). The system is able to both support multiple **_processors_** (hardware) and to allocate tasks to them. This must not be confused with multiprogramming. The difference between them is as such: a multi-processing system can run processes simultaneously because it has multiple **_processors_**. Most modern machines use this mechanism.
   
-4.  Multi-threading - the ability of a CPU, or single core in a multiprocessor system, to execute multiple threads (or processes) concurrently. The threads must share resources, too. The goal of this mechanism is to optimise the use of a core or CPU, in a way similar to that of multiprogramming. "If a thread gets a lot of cache misses, the other threads can continue taking advantage of the unused computing resources, which may lead to faster overall execution as these resources would have been idle if only a single thread were executed."[2] However, the sharing of resources can result in threads actually running slower; for example if processes are dependent upon each other, the execution of one could delay the execution of the other.
+4.  Multi-threading - the ability of a CPU, or single core in a multiprocessor system, to execute multiple threads (or processes) concurrently. The threads must share resources, too. The goal of this mechanism is to optimise the use of a core or CPU, in a way similar to that of multiprogramming. If a thread gets a lot of cache misses, the other threads can continue taking advantage of the unused computing resources, which may lead to faster overall execution as these resources would have been idle if only a single thread were executed. However, the sharing of resources can result in threads actually running slower; for example if processes are dependent upon each other, the execution of one could delay the execution of the other.
   
   There are also three types of multi-processsing: block, interleaved and simultaneous multi-processing.
   
-#Chapter 3
+#Chapter 3 Questions
 
 1.  A sequence of instructions that execute for a particular process.
 
@@ -39,21 +39,4 @@
 
 11. A mode switch refers to the switching between user and kernel mode, and a a process switch is a switch between processes. In a process switch, the state of a process is stored to that execution can continue.
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-[1][https://gabrieletolomei.wordpress.com/miscellanea/operating-systems/multiprogramming-multiprocessing-multitasking-multithreading/](https://gabrieletolomei.wordpress.com/miscellanea/operating-systems/multiprogramming-multiprocessing-multitasking-multithreading/)
-
-[2][https://en.wikipedia.org/wiki/Multithreading_(computer_architecture)](https://en.wikipedia.org/wiki/Multithreading_(computer_architecture))
+ 
