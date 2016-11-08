@@ -1,5 +1,5 @@
-#Yani Muskwe
-#OP-SYS 4103-102 Dining philosophers problem
+##Yani Muskwe
+##OP-SYS 4103-102 Dining philosophers problem
 
 import threading
 from time import sleep
